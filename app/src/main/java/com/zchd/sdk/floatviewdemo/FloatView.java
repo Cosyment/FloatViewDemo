@@ -28,8 +28,8 @@ import java.lang.ref.WeakReference;
 
 
 /**
- * Copyright (C), 2020-2022, 中传互动（湖北）信息技术有限公司
- * Author: HeChao
+ * Copyright (C), 2020-2022, Waiting
+ * Author: Waiting
  * Date: 2022/3/15 16:37
  * Description:
  */

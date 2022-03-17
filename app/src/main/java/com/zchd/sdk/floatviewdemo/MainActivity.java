@@ -17,11 +17,25 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn_show).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                FloatView.getInstance().showBadge();
+                FloatView.getInstance().show();
             }
         });
 
         findViewById(R.id.btn_hide).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FloatView.getInstance().hide();
+            }
+        });
+
+        findViewById(R.id.btn_show_badge).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FloatView.getInstance().showBadge();
+            }
+        });
+
+        findViewById(R.id.btn_hide_badge).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FloatView.getInstance().hideBadge();

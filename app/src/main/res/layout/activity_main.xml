@@ -27,4 +27,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="hide" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_show_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show badge" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_hide_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hide badge" />
 </LinearLayout>
